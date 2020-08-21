@@ -34,7 +34,13 @@ while True:
         os.system("putty")
     elif("run" in p) and("kubernetes" in p):
         print("Opening the Kubernetes Cluster in VM....Might Take some time.....")      
-        os.system("minikube.exe start")              
+        os.system("minikube.exe start") 
+    elif(("show" in p)or("listout" in p))and("directory" in p):  
+        print("We are Listing all the directories...")
+        os.system("dir")  
+    elif("clear" in p)and("screen" in p):
+        os.system("cls")     
+                      
     elif("exit" in p):
         print("We are closing the program!")
         print("________________________________________________________________________________________________________________________")
