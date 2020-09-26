@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<script type="text/javascript">
+
+    
+
+</script>
+<head>
+    <title>Sign up form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type = "text/css">
+    
+    body{
+        margin:0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.1wxt-0TL4nX2ZbYNP5iEkAAAAA&pid=Api&P=0&w=300&h=300");
+    }
+    .signup{
+        width:350px;
+        box-shadow: 0 0 3px rgba(0,0,0,0.3);        
+        background:rgba(247, 69, 232, 0.692);
+        padding:10px;
+        margin:6% auto 0;
+        text-align: center;
+        border-radius: 10px;
+        border:solid yellow;
+       
+    }
+    .signin{
+        font-size: 20px;
+        color:rgb(42, 14, 224);
+    }
+    .signin:hover{
+        text-decoration:underline;
+    }
+    .input{
+        height:30px;
+        border-radius: 10px;
+        border-width: 2px; 
+        border-color: yellow;
+        box-shadow: 10px;
+        text-align:center;
+        font-size: 17px;
+        width: 250px;
+        
+    }
+    button{
+        height: 25px;
+        width:80px;
+        font-size: 16px;
+        border-radius: 4px;
+        border-width: 0.5px;
+    }
+    .edu{
+        text-align: center;
+        font-size: 40px;
+        font: aerial;
+        color:khaki;
+    }
+    input:focus{
+        border-color: yellow;
+        outline: 3px solid yellow;
+        border-radius: 10px;
+    }
+
+    
+       
+    </style>
+   
+</head>
+<body>
+ <div class="edu"><span><p><b><u>EDUZOR</u></b></p></span></div>
+    <div class ="signup">
+        <h1>Linux Commands Runner</h1>
+        <form action="http://192.168.43.16/cgi-bin/my.py" >
+            <input name="myname"  type="text" class="input" placeholder="Enter Username" >
+            <input name="pass"   type="password" class="input" placeholder="Enter Password" > <input name="command"  type="text" class="input" placeholder="Enter Command" >
+                
+            
+           
+          
+            <p><span><input type="checkbox"></span>Are You Sure?</p>
+            <button >RUN</button><br>
+            
+            
+        </form>
+    </div>
+</body>
