@@ -7,7 +7,7 @@ mydata = cgi.FieldStorage()
 myx=mydata.getvalue("command")
 name=mydata.getvalue("myname")
 passw=mydata.getvalue("pass")
-if(name=='arsh' and passw=='arsh1234'):
+if(name=='<Enter valid username>' and passw=='<Enter a valid password>'):
   output=subprocess.getstatusoutput('sudo'+' '+myx)
   status=output[0]
   out=output[1]
